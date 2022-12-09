@@ -16,7 +16,13 @@ The output is displayed as follows and has the following format. An example is p
 ```
   Threads= 64     MaxT= 42754187  TP = 1496.93    SOPT = 16.1875  Sp = 1036
 ```
-Here, threads 
+1. "Threads" represents the total thread count.
+2. "MaxT" represents the Maximum time taken by a thread. This is used for calculating the throughput.
+3. "TP" represents the throughput for a single execution. 
+4. "SOPT" represents the space overhead per thread.
+5. "Sp" represents the space overhead for the execution, calculated by taking the difference between total number of enqueue operations and total reclaims performed. 
+The code also contains multiple commented print statements which can allow us to output additional information for analysis purposes. 
+There is also a prewritten shell script for performing a batch of executions in a single go. We ran this on the RLogin server and the outputs are presented in the text files in every techniques particular folder by the following name "<technique>_out.txt"
 
-## References:
+## References
 Haosen Wen, Joseph Izraelevitz, Wentao Cai, H. Alan Beadle, and Michael L. Scott, "Interval-Based Memory Reclamation", PPoPP ’18, February 24–28, 2018, Vienna, Austria.
