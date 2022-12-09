@@ -1,0 +1,48 @@
+4 64000 100 25
+Threads= 4      MaxT= 19747948  TP = 3240.84    SOPT = 54       Sp = 216
+Threads= 4      MaxT= 19919058  TP = 3213       SOPT = 57.5     Sp = 230
+Threads= 4      MaxT= 20169653  TP = 3173.08    SOPT = 65       Sp = 260
+Threads= 4      MaxT= 20438248  TP = 3131.38    SOPT = 57.25    Sp = 229
+Threads= 4      MaxT= 19884372  TP = 3218.61    SOPT = 50.5     Sp = 202
+8 64000 200 25
+Threads= 8      MaxT= 28009677  TP = 2284.92    SOPT = 47.75    Sp = 382
+Threads= 8      MaxT= 28081152  TP = 2279.11    SOPT = 86.125   Sp = 689
+Threads= 8      MaxT= 27646845  TP = 2314.91    SOPT = 68.625   Sp = 549
+Threads= 8      MaxT= 27852591  TP = 2297.81    SOPT = 51.375   Sp = 411
+Threads= 8      MaxT= 28992281  TP = 2207.48    SOPT = 46       Sp = 368
+16 64000 400 25
+Threads= 16     MaxT= 35961167  TP = 1779.7     SOPT = 116.062  Sp = 1857
+Threads= 16     MaxT= 35672763  TP = 1794.09    SOPT = 81.5     Sp = 1304
+Threads= 16     MaxT= 36290970  TP = 1763.52    SOPT = 54.125   Sp = 866
+Threads= 16     MaxT= 36039534  TP = 1775.83    SOPT = 56.6875  Sp = 907
+Threads= 16     MaxT= 36554446  TP = 1750.81    SOPT = 48.875   Sp = 782
+20 64000 500 25
+Threads= 20     MaxT= 39077311  TP = 1637.78    SOPT = 56.75    Sp = 1135
+Threads= 20     MaxT= 37949300  TP = 1686.46    SOPT = 72.3     Sp = 1446
+Threads= 20     MaxT= 39228862  TP = 1631.45    SOPT = 60.95    Sp = 1219
+Threads= 20     MaxT= 38742281  TP = 1651.94    SOPT = 57.8     Sp = 1156
+Threads= 20     MaxT= 37986132  TP = 1684.83    SOPT = 50.4     Sp = 1008
+24 64000 600 25
+Threads= 24     MaxT= 42789818  TP = 1495.68    SOPT = 50.7083  Sp = 1217
+Threads= 24     MaxT= 40713864  TP = 1571.95    SOPT = 81.7917  Sp = 1963
+Threads= 24     MaxT= 38106851  TP = 1679.49    SOPT = 79.375   Sp = 1905
+Threads= 24     MaxT= 43733124  TP = 1463.42    SOPT = 54.4583  Sp = 1307
+Threads= 24     MaxT= 43260324  TP = 1479.42    SOPT = 53.9167  Sp = 1294
+32 64000 800 25
+Threads= 32     MaxT= 47074643  TP = 1359.54    SOPT = 93.0938  Sp = 2979
+Threads= 32     MaxT= 45923059  TP = 1393.64    SOPT = 81.75    Sp = 2616
+Threads= 32     MaxT= 45003076  TP = 1422.13    SOPT = 84.0312  Sp = 2689
+Threads= 32     MaxT= 46200055  TP = 1385.28    SOPT = 74.5     Sp = 2384
+Threads= 32     MaxT= 46555873  TP = 1374.69    SOPT = 70.75    Sp = 2264
+48 64000 1200 25
+Threads= 48     MaxT= 39454613  TP = 1622.12    SOPT = 667      Sp = 32016
+Threads= 48     MaxT= 41065103  TP = 1558.5     SOPT = 667      Sp = 32016
+Threads= 48     MaxT= 40875709  TP = 1565.72    SOPT = 667      Sp = 32016
+Threads= 48     MaxT= 42172499  TP = 1517.58    SOPT = 667      Sp = 32016
+Threads= 48     MaxT= 42528472  TP = 1504.87    SOPT = 667      Sp = 32016
+64 64000 1600 25
+Threads= 64     MaxT= 42223425  TP = 1515.75    SOPT = 500      Sp = 32000
+Threads= 64     MaxT= 42578591  TP = 1503.1     SOPT = 500      Sp = 32000
+Threads= 64     MaxT= 44544752  TP = 1436.76    SOPT = 500      Sp = 32000
+Threads= 64     MaxT= 43444193  TP = 1473.15    SOPT = 500      Sp = 32000
+Threads= 64     MaxT= 43768842  TP = 1462.23    SOPT = 500      Sp = 32000
