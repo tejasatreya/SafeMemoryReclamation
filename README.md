@@ -4,5 +4,19 @@ Memory reclamation for a lock based structure is very straightforward and a node
 
 In this project we have implemented two types of Memory Reclamation techniques, Epoch-Based Reclamation (EBR) and Interval-Based Reclamation (IBR). In the EBR scheme, each thread will try to reserve all the memory blocks that were created after a certain time. However, in IBR based schemes, only a set of processes will be able to reserve a block based on a time-interval and based on their existence/lifetime as an active reference for at least one thread. The IBR strategy is a stronger strategy as it will allow other threads to be released in case of one of the thread being stuck in a stall. The EBR strategy blocks all the threads in such a scenario and has very problematic consequences in terms of memory exhaustion. IBR provides a great solution to this by giving us a time interval or a window so to say, to check if the retired processes lie beyond the window of being reclaimed. If they do, we reclaim them without having to run a validation or a checking operation on them. 
 
+## Compilation and Execution
+We have used the -std=C++11 compiler along with -lpthread to implement the techniques. 
+For implementation, move to the EBR, IBR or NoSMR directories for Epoch based, Interval based and a baseline no-SMR based implementation. In the directories, you will have to run the following command for compiling.
+```
+g++ <File name (Eg. epochBasedReclamation)>.cpp -o main  -std=c++11 -lpthread
 
-n EBR scheme each thread tries to reserve all memory blocks that are created after a particular time, however IBR scheme only reserves a set of blocks that are created between a particular time interval. IBR approach is enhancement over EBR approach as this approach provides efficient solution of stalled threads as well. In EBR, if a thread gets stalled, it may prevent other threads from reclaiming the memory blocks that were created after a particular time point, since this algorithm tends to reserve all the memory blocks after a particular point of time. So, even a single thread stall might lead to memory exhaustion. IBR technique, fortunately, resolves this problem, as it only reserves certain set of memory blocks, which allows other threads to free the memory blocks which are not reserved by stalled thread.
+./main <thread count> <iterations> <epoch frequency> <empty frequency>
+```
+The output is displayed as follows and has the following format. An example is presented below:
+```
+  Threads= 64     MaxT= 42754187  TP = 1496.93    SOPT = 16.1875  Sp = 1036
+```
+Here, threads 
+
+## References:
+Haosen Wen, Joseph Izraelevitz, Wentao Cai, H. Alan Beadle, and Michael L. Scott, "Interval-Based Memory Reclamation", PPoPP ’18, February 24–28, 2018, Vienna, Austria.
