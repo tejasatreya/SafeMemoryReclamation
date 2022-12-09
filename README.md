@@ -27,3 +27,4 @@ There is also a prewritten shell script for performing a batch of executions in 
 
 ## References
 Haosen Wen, Joseph Izraelevitz, Wentao Cai, H. Alan Beadle, and Michael L. Scott, "Interval-Based Memory Reclamation", PPoPP ’18, February 24–28, 2018, Vienna, Austria.
+Maurice Herlihy and Nir Shavit. 2012. The Art of Multiprocessor Programming, Revised Reprint (1st. ed.). Morgan Kaufmann Publishers Inc., San Francisco, CA, USA.
