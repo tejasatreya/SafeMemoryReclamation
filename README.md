@@ -21,6 +21,7 @@ The output is displayed as follows and has the following format. An example is p
 3. "TP" represents the throughput for a single execution. 
 4. "SOPT" represents the space overhead per thread.
 5. "Sp" represents the space overhead for the execution, calculated by taking the difference between total number of enqueue operations and total reclaims performed. 
+
 The code also contains multiple commented print statements which can allow us to output additional information for analysis purposes. 
 There is also a prewritten shell script for performing a batch of executions in a single go. We ran this on the RLogin server and the outputs are presented in the text files in every techniques particular folder by the following name "<technique>_out.txt"
 
